@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Joseph" content="animalLeg calculator, animalLegs" />
+    <title>Animal Legs calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div>
+          <h1>Animal legs Calculator</h1>
+          <p>
+            chicken:
+            <input
+              type="number"
+              placeholder="Enter chicken number"
+              id="chicken"
+            />
+          </p>
+          <p>
+            cow :
+            <input type="number" placeholder="Enter cow number" id="cow" />
+          </p>
+          <p>
+            pigs:
+            <input type="number" placeholder="Enter pig number" id="pig" />
+          </p>
+          <button onclick="animalLeg()">Calculate</button>
+          <div class="display">
+            <p id="demo"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
