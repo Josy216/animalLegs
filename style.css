@@ -38,11 +38,6 @@ button {
   padding: 12px;
   margin: 10px;
 }
-.error {
-  border: 2px solid red;
-  color: red;
-  font-weight: bold;
-}
 @media (max-width: 500px) {
   .container {
     text-align: center;
