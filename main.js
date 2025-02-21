@@ -17,6 +17,6 @@ togle.style.display = "block";
 
 let animalLegs = 2 * chicken.value + 4 * cow.value + 4 * pig.value;
 
-display.innerHTML = Your animal Total legs are : ${animalLegs};
+display.innerHTML = "Your animal Total legs are : " + animalLegs;
 
 });
